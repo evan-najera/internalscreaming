@@ -1,8 +1,8 @@
 //internalscreaming manifest.json
 {
 "manifest_version": 2,
-    "name": "[your extension name here]",
-    "description": "[your extension description here]",
+    "name": "Internalscreaming",
+    "description": "It will replace certain words into memes",
     "version": "1.0",
     "content_scripts": [
         {
@@ -15,41 +15,24 @@
             "run_at": "document_end"
         }
     ]
-}
-
 //Open New Tab manifest.json//
-{
-  "manifest_version": 2,
-  "name": "Open New Tab Extension",
-  "version": "0.1",
   "background": {
     "scripts": ["background.js"]
   },
   "content_scripts": [
     {
-      "matches": [
-        "<all_urls>"
-      ],
+      "matches": ["<all_urls>"],
       "js": ["jquery-3.2.1.min.js", "content.js"]
     }
   ],
   "browser_action": {
     "default_icon": "icon.png"
-  }
-}
+  },
 
 //Change Image manifest.json
-{
-  "manifest_version": 2,
- 
-  "name": "Modify CSS and HTML",
-  "version": "0.1.0",
-  "description": "Lateral blog post demo extension",
- 
   "content_scripts": [{
     "css": ["styles.css"],
     "js": ["content.js"],
-    "matches": ["https://blog.lateral.io/*"]
+    "matches": ["<all_urls"]
   }]
- 
 }
