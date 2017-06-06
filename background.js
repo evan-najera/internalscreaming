@@ -6,7 +6,7 @@
     $.extend(self, {
         nCageImgs : [
 'https://i.ytimg.com/vi/hYnkm78uxYE/hqdefault.jpg',
-'//https://qph.ec.quoracdn.net/main-qimg-2e3206445819b42a895ba8234a24ec71-c',
+'https://qph.ec.quoracdn.net/main-qimg-2e3206445819b42a895ba8234a24ec71-c',
 'https://cdn.meme.am/cache/instances/folder749/74835749.jpg',
 'http://www.livingneworleans.com/wp-content/uploads/2013/12/RichardSimmonsedit2.jpg',
         ],

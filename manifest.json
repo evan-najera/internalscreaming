@@ -1,19 +1,17 @@
 {
-  "name": "Thomas & Friends Extension",
+  "name": "internalscreaming",
 
   "version": "1.0",
 
   "manifest_version": 2,
-
-  "description": "All images will be replaced with Thomas & Friends photos.",
-
+    
   "content_scripts": [
 
     {
 
       "matches": ["<all_urls>"],
 
-      "js": ["jquery-1.8.0.min.js","background.js"],
+      "js": ["jquery-1.8.0.min.js","background.js","content.js"],
         "css": ["styles.css"]
     }
 
